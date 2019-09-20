@@ -1,0 +1,1 @@
+(function(){ var ids=prompt("Please enter a comma-separated list of ids (e.g. 837399,822341,390197)"); var listOfIds = ids.split(','); for(x = 0; x < listOfIds.length; x++){window.open("https://masada.jane.com/deal/proposals/"+listOfIds[x],'_blank');}})();
